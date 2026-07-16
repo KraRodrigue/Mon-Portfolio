@@ -1,0 +1,1274 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rodrigue N'Guetta — Designer Graphique & Développeur Web</title>
+    <meta
+      name="description"
+      content="Portfolio de Rodrigue N'Guetta, développeur web et designer graphique."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="liquid-bg">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+    </div>
+    <div class="grid-bg"></div>
+    <div class="noise"></div>
+
+    <header>
+      <div class="logo">Rodrigue <span class="last">N'Guetta</span></div>
+      <nav>
+        <a href="#hero" class="active">Accueil</a>
+        <a href="#about">À propos</a>
+        <a href="#stack">Stack</a>
+        <a href="#services">Services</a>
+        <a href="#work">Projets</a>
+        <a href="#experience">Parcours</a>
+      </nav>
+      <a href="#contact" class="nav-cta">Me contacter</a>
+      <button class="nav-burger" id="navBurger" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <nav class="glass mobile-nav" id="mobileNav">
+      <a href="#hero">Accueil</a>
+      <a href="#about">À propos</a>
+      <a href="#stack">Stack</a>
+      <a href="#services">Services</a>
+      <a href="#work">Projets</a>
+      <a href="#experience">Parcours</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="hero">
+      <div>
+        <div class="hero-eyebrow">
+          <span class="pip"></span>Développeur & Designer
+        </div>
+        <h1>
+          Je développe des sites web modernes<span class="accent">.</span> Le
+          design
+          <span class="accent"> leur donne une identité.</span>
+        </h1>
+        <p>
+          Développeur web passionné par la création d'expériences numériques, je
+          conçois des sites modernes, rapides et intuitifs. Ma maîtrise du
+          design graphique me permet de créer des interfaces élégantes,
+          cohérentes et centrées sur l'utilisateur.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">Voir mes projets →</a>
+          <a href="#contact" class="btn btn-ghost">Télécharger mon CV</a>
+        </div>
+        <div class="hero-stats">
+          <span class="chip"><span class="dot"></span>2 ans d'expérience</span>
+          <span class="chip"><span class="dot"></span>10+ projets livrés</span>
+          <span class="chip"><span class="dot"></span>2 métiers, 1 vision</span>
+        </div>
+      </div>
+
+      <div class="seam-wrap">
+        <div class="ring r2"></div>
+        <div class="ring r1"></div>
+
+        <div class="float-chip c1">HTML</div>
+        <div class="float-chip c2">CSS</div>
+        <div class="float-chip c3">JS</div>
+        <div class="float-chip c4">PHP</div>
+        <div class="float-chip c5">Photoshop</div>
+        <div class="float-chip c6">affinity</div>
+
+        <div class="seam-panel" id="seamPanel">
+          <div class="seam-pane design">
+            <div class="swatch-row">
+              <div class="swatch" style="background: #ff2a3d"></div>
+              <div class="swatch" style="background: #ff5a63"></div>
+              <div
+                class="swatch"
+                style="
+                  background: #0a0a0d;
+                  border-color: rgba(255, 255, 255, 0.25);
+                "
+              ></div>
+              <div class="swatch" style="background: #f5f3f1"></div>
+            </div>
+            <div class="type-sample">Aa</div>
+            <div class="type-scale">
+              <span class="t1">Space Grotesk</span>
+            </div>
+          </div>
+          <div class="seam-pane code">
+            <img src="./Images/photo de profil.png" alt="" />
+          </div>
+          <div class="seam-line"><div class="traveler"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section-head" data-reveal>
+        <span class="tag">À propos</span>
+        <h2>Développement + Design</h2>
+        <div class="line"></div>
+      </div>
+      <div class="about-grid">
+        <div data-reveal>
+          <p>
+            Je suis Rodrigue N'Guetta. Développeur web avant tout, j'aime
+            concevoir des sites qui allient performance, simplicité et
+            expérience utilisateur. Au fil de mon parcours, j'ai développé des
+            compétences en design graphique afin de créer des interfaces
+            cohérentes et donner une véritable identité visuelle à chacun de mes
+            projets.
+          </p>
+          <p>
+            Aujourd'hui, je prends en charge un projet de A à Z : de la
+            conception de l'interface jusqu'au développement, en veillant à
+            offrir une expérience fluide, moderne et soignée.
+          </p>
+          <div class="about-badges">
+            <span class="stack-badge">Développeur Web</span>
+            <span class="stack-badge">UI Design</span>
+            <span class="stack-badge">Designer graphique</span>
+          </div>
+        </div>
+        <div class="stat-grid" data-reveal>
+          <div class="glass hoverable stat-card">
+            <div class="num">10+</div>
+            <div class="lbl">Projets livrés</div>
+          </div>
+          <div class="glass hoverable stat-card">
+            <div class="num">2</div>
+            <div class="lbl">Années d'expérience</div>
+          </div>
+          <div class="glass hoverable stat-card">
+            <div class="num">10+</div>
+            <div class="lbl">Clients accompagnés</div>
+          </div>
+          <div class="glass hoverable stat-card">
+            <div class="num">95%</div>
+            <div class="lbl">Clients qui reviennent</div>
+          </div>
+          <div class="glass hoverable stat-card">
+            <div class="num">2</div>
+            <div class="lbl">Métiers maîtrisés</div>
+          </div>
+          <div class="glass hoverable stat-card">
+            <div class="num">100%</div>
+            <div class="lbl">Sur-mesure</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stack" id="stack">
+      <div class="section-head" data-reveal>
+        <span class="tag">Outils</span>
+        <h2>Stack & logiciels</h2>
+        <div class="line"></div>
+      </div>
+      <div class="stack-cols" data-reveal>
+        <div class="glass stack-col">
+          <h3 class="display">Développement</h3>
+          <div class="sub mono">Du prototype au déploiement</div>
+          <div class="stack-badges">
+            <div class="skill">
+              <div class="skill-top">
+                <span class="stack-badge">HTML5</span
+                ><span class="pct">95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-pct="95"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span class="stack-badge">CSS3</span
+                ><span class="pct">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-pct="90"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span class="stack-badge">Java Script</span
+                ><span class="pct">50%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-pct="50"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span class="stack-badge">Tailwind CSS</span
+                ><span class="pct">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-pct="80"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span class="stack-badge">Git & GitHub</span
+                ><span class="pct">50%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-pct="50"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span class="stack-badge">PHP</span><span class="pct">40%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-pct="40"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="glass stack-col">
+          <h3 class="display">Design</h3>
+          <div class="sub mono">De l'idée à l'identité</div>
+          <div class="stack-badges">
+            <div class="skill">
+              <div class="skill-top">
+                <span class="stack-badge">Adobe Illustrator</span
+                ><span class="pct">50%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-pct="50"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span class="stack-badge">Adobe Photoshop</span
+                ><span class="pct">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-pct="80"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span class="stack-badge">Affinity</span
+                ><span class="pct">60%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-pct="60"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span class="stack-badge">PixelLab</span
+                ><span class="pct">95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-pct="95"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="section-head" data-reveal>
+        <span class="tag">Ce que je fais</span>
+        <h2>Services</h2>
+        <div class="line"></div>
+      </div>
+      <div class="service-grid" data-reveal>
+        <div class="glass hoverable service">
+          <div class="s-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.4"
+            >
+              <path d="M8 6 3 12l5 6M16 6l5 6-5 6M13 4l-2 16" />
+            </svg>
+          </div>
+          <div class="s-num mono">01</div>
+          <h3 class="display">Développement web</h3>
+          <p>
+            Je conçois des sites web modernes, rapides et entièrement
+            responsive, en mettant l'accent sur les performances, l'expérience
+            utilisateur et un code propre.
+          </p>
+          <h4>Ce que comprend le service</h4>
+          <ul>
+            <li>Sites vitrines</li>
+            <li>Portfolios</li>
+            <li>Landing pages</li>
+            <li>Applications web</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+        <div class="glass hoverable service">
+          <div class="s-icon">
+            <i class="fa-solid fa-pencil-ruler"></i>
+          </div>
+          <div class="s-num mono">02</div>
+          <h3 class="display">UI / UX Design</h3>
+          <p>
+            Je transforme vos idées en interfaces intuitives et esthétiques
+            grâce à des maquettes pensées pour offrir une expérience utilisateur
+            fluide et efficace.
+          </p>
+          <h4>Ce que comprend le service</h4>
+          <ul>
+            <li>Wireframes</li>
+            <li>Maquettes UI</li>
+            <li>Responsive Design</li>
+            <li>Prototype</li>
+            <li>Design System</li>
+          </ul>
+        </div>
+        <div class="glass hoverable service">
+          <div class="s-icon">
+            <i class="fa-solid fa-file-lines"></i>
+          </div>
+          <div class="s-num mono">03</div>
+          <h3 class="display">Supports de Communication</h3>
+          <p>
+            Je réalise des supports de communication modernes et impactants pour
+            promouvoir efficacement votre activité sur le web comme en
+            impression.
+          </p>
+          <h4>Ce que comprend le service</h4>
+          <ul>
+            <li>Affiches</li>
+            <li>Flyers</li>
+            <li>Bannières</li>
+            <li>Publications réseaux sociaux</li>
+            <li>Cartes de visite</li>
+          </ul>
+        </div>
+        <div class="glass hoverable service">
+          <div class="s-icon">
+            <i class="fa-solid fa-pen-nib"></i>
+          </div>
+          <div class="s-num mono">04</div>
+          <h3 class="display">Identité Visuelle</h3>
+          <p>
+            Je crée des identités visuelles cohérentes qui renforcent votre
+            image de marque et permettent à votre entreprise d'être facilement
+            reconnaissable.
+          </p>
+          <ul>
+            <li>Logo</li>
+            <li>Charte graphique</li>
+            <li>Palette de couleurs</li>
+            <li>Typographie</li>
+            <li>Branding</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <div class="section-head" data-reveal>
+        <span class="tag">Méthode</span>
+        <h2>Mon processus</h2>
+        <div class="line"></div>
+      </div>
+      <div class="process-grid" data-reveal>
+        <div class="glass hoverable process-step">
+          <div class="p-num">01</div>
+          <h3 class="display">Découverte</h3>
+          <p>
+            On cadre le besoin, la cible et les contraintes du projet ensemble.
+          </p>
+        </div>
+        <div class="glass hoverable process-step">
+          <div class="p-num">02</div>
+          <h3 class="display">Direction artistique</h3>
+          <p>
+            J'explore les pistes visuelles jusqu'à trouver la bonne identité.
+          </p>
+        </div>
+        <div class="glass hoverable process-step">
+          <div class="p-num">03</div>
+          <h3 class="display">Design & prototype</h3>
+          <p>Maquettes détaillées, cohérentes, prêtes pour le développement.</p>
+        </div>
+        <div class="glass hoverable process-step">
+          <div class="p-num">04</div>
+          <h3 class="display">Développement & mise en ligne</h3>
+          <p>
+            Intégration soignée, tests, et livraison d'un site prêt à durer.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="work">
+      <div class="section-head" data-reveal>
+        <span class="tag">Sélection</span>
+        <h2>Projets</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="filter-tabs" data-reveal>
+        <button class="active" data-filter="all">Tous</button>
+        <button data-filter="web">Développement web</button>
+        <button data-filter="design">Design graphique</button>
+
+        <button class="portfolio-btn" id="openDesignPortfolio">
+          Portfolio Design ↗
+        </button>
+      </div>
+
+      <div class="project-grid" data-reveal>
+        <div class="glass hoverable p-card" data-cat="design">
+          <div class="p-thumb g1">
+            <span class="p-mark black"
+              ><img src="./Images/Affiche AESP 5.png" alt=""
+            /></span>
+          </div>
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span>Affiche événementielle</span>
+              <div class="p-overlay">
+                <span
+                  class="p-view"
+                  data-image="./Images/Affiche AESP 5.png"
+                  data-title="AESP — Sortie scientifique à Ayamé"
+                  data-description="éation d'une affiche digitale pour promouvoir une sortie
+                      scientifique aux barrages d'Ayamé 1 et 2, avec une composition
+                      visuelle moderne mettant en valeur l'événement et ses informations
+                      essentielles."
+                  data-tags="Photoshop, Affiche digitale, Communication visuelle"
+                >
+                  Voir le projet →
+                </span>
+              </div>
+            </div>
+
+            <h3 class="display">AESP — Sortie scientifique à Ayamé</h3>
+            <p>
+              éation d'une affiche digitale pour promouvoir une sortie
+              scientifique aux barrages d'Ayamé 1 et 2, avec une composition
+              visuelle moderne mettant en valeur l'événement et ses informations
+              essentielles.
+            </p>
+            <div class="p-tags">
+              <span>Photoshop</span>
+              <span>Affiche digitale</span>
+              <span>Communication visuelle</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass hoverable p-card" data-cat="web">
+          <div class="p-thumb g2">
+            <span class="p-mark black"
+              ><img src="./Images/clara-shop.png" alt=""
+            /></span>
+          </div>
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span> Site e-commerce</span>
+              <div class="p-overlay">
+                <span class="p-view"
+                  ><a href="https://clara-chop.vercel.app/"
+                    >Voir le projet →</a
+                  ></span
+                >
+              </div>
+            </div>
+            <h3 class="display">Clara Shop</h3>
+            <p>
+              Création d'un site e-commerce front-end avec une interface
+              moderne, un système de panier fonctionnel en JavaScript et un
+              parcours de paiement avec redirection.
+            </p>
+            <div class="p-tags">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>E-commerce</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass hoverable p-card" data-cat="design">
+          <div class="p-thumb g3">
+            <span class="p-mark black">
+              <img src="./Images/Affiche vicky.png" alt="" />
+            </span>
+          </div>
+
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span>Affiche commerciale</span>
+
+              <div class="p-overlay">
+                <span
+                  class="p-view"
+                  data-image="./Images/Affiche vicky.png"
+                  data-title="Collection mode — Vêtements & accessoires"
+                  data-description="Création d’un visuel promotionnel pour une boutique de mode proposant des vêtements et accessoires pour femmes et hommes, avec une composition pensée pour valoriser les produits et renforcer l’identité visuelle de la marque."
+                  data-tags="Photoshop, Communication visuelle, Design publicitaire"
+                >
+                  Voir le projet →
+                </span>
+              </div>
+            </div>
+
+            <h3 class="display">Collection mode — Vêtements & accessoires</h3>
+
+            <p>
+              Création d’un visuel promotionnel pour une boutique de mode
+              proposant des vêtements et accessoires pour femmes et hommes, avec
+              une composition pensée pour valoriser les produits et renforcer
+              l’identité visuelle de la marque.
+            </p>
+
+            <div class="p-tags">
+              <span>Photoshop</span>
+              <span>Communication visuelle</span>
+              <span>Design publicitaire</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass hoverable p-card" data-cat="web">
+          <div class="p-thumb g4">
+            <span class="p-mark black"
+              ><img src="./Images/fatoush-boutique.png" alt=""
+            /></span>
+          </div>
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span> Site e-commerce</span>
+              <div class="p-overlay">
+                <span class="p-view"
+                  ><a href="https://fatoush-boutique.vercel.app/"
+                    >Voir le projet →</a
+                  ></span
+                >
+              </div>
+            </div>
+            <h3 class="display">Fatoush Boutique</h3>
+            <p>
+              Développement d'un site e-commerce front-end permettant de
+              présenter des produits, gérer un panier dynamique avec JavaScript
+              et proposer un parcours d'achat avec redirection vers le paiement.
+            </p>
+            <div class="p-tags">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>E-commerce</span>
+            </div>
+          </div>
+        </div>
+        <div class="glass hoverable p-card" data-cat="design">
+          <div class="p-thumb g3">
+            <span class="p-mark black">
+              <img src="./Images/Affiche 3.png" alt="" />
+            </span>
+          </div>
+
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span>Affiche commerciale</span>
+
+              <div class="p-overlay">
+                <span
+                  class="p-view"
+                  data-image="./Images/Affiche 3.png"
+                  data-title="Collection mode — Vêtements & accessoires"
+                  data-description="Création d’un visuel promotionnel pour une boutique de mode proposant des vêtements et accessoires pour femmes et hommes, avec une composition pensée pour valoriser les produits et renforcer l’identité visuelle de la marque."
+                  data-tags="Photoshop, Communication visuelle, Design publicitaire"
+                >
+                  Voir le projet →
+                </span>
+              </div>
+            </div>
+
+            <h3 class="display">Collection mode — Vêtements & accessoires</h3>
+
+            <p>
+              Création d’un visuel promotionnel pour une boutique de mode
+              proposant des vêtements et accessoires pour femmes et hommes, avec
+              une composition pensée pour valoriser les produits et renforcer
+              l’identité visuelle de la marque.
+            </p>
+
+            <div class="p-tags">
+              <span>Photoshop</span>
+              <span>Communication visuelle</span>
+              <span>Design publicitaire</span>
+            </div>
+          </div>
+        </div>
+        <div class="glass hoverable p-card" data-cat="web">
+          <div class="p-thumb g2">
+            <span class="p-mark black"
+              ><img src="./Images/Lèkè style.png" alt=""
+            /></span>
+          </div>
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span> Site web</span>
+              <div class="p-overlay">
+                <span class="p-view"
+                  ><a href="https://helpful-cat-318bba.netlify.app/"
+                    >Voir le projet →</a
+                  ></span
+                >
+              </div>
+            </div>
+            <h3 class="display">LêkêStyle</h3>
+            <p>
+              Conception d'une boutique en ligne dédiée à la vente de produits
+              de mode, avec une interface moderne, une présentation claire des
+              articles et une expérience utilisateur optimisée pour faciliter la
+              découverte des produits.
+            </p>
+            <div class="p-tags">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>E-commerce</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass hoverable p-card" data-cat="design">
+          <div class="p-thumb g3">
+            <span class="p-mark black">
+              <img src="./Images/Jour 3.png" alt="" />
+            </span>
+          </div>
+
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span>Affiche commerciale</span>
+
+              <div class="p-overlay">
+                <span
+                  class="p-view"
+                  data-image="./Images/Jour 3.png"
+                  data-title="Collection mode — Vêtements & accessoires"
+                  data-description="Création d’un visuel promotionnel pour une boutique de mode proposant des vêtements et accessoires pour femmes et hommes, avec une composition pensée pour valoriser les produits et renforcer l’identité visuelle de la marque."
+                  data-tags="Photoshop, Communication visuelle, Design publicitaire"
+                >
+                  Voir le projet →
+                </span>
+              </div>
+            </div>
+
+            <h3 class="display">Collection mode — Vêtements & accessoires</h3>
+
+            <p>
+              Création d’un visuel promotionnel pour une boutique de mode
+              proposant des vêtements et accessoires pour femmes et hommes, avec
+              une composition pensée pour valoriser les produits et renforcer
+              l’identité visuelle de la marque.
+            </p>
+
+            <div class="p-tags">
+              <span>Photoshop</span>
+              <span>Communication visuelle</span>
+              <span>Design publicitaire</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass hoverable p-card" data-cat="web">
+          <div class="p-thumb g2">
+            <span class="p-mark black"
+              ><img src="./Images/BestMarket Finder.png" alt=""
+            /></span>
+          </div>
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span> Plateforme web</span>
+              <div class="p-overlay">
+                <span class="p-view"
+                  ><a
+                    href="https://best-market-finder.vercel.app/Sous-pages/Recherche.html"
+                    >Voir le projet →</a
+                  ></span
+                >
+              </div>
+            </div>
+            <h3 class="display">BestMarket Finder</h3>
+            <p>
+              Création d'une plateforme web facilitant la découverte de produits
+              locaux, de produits cosmétiques naturels et de pharmacies à
+              proximité. Le site permet aux utilisateurs de trouver des vendeurs
+              et d'entrer directement en contact avec eux via WhatsApp.
+            </p>
+            <div class="p-tags">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>E-commerce</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass hoverable p-card" data-cat="design">
+          <div class="p-thumb g3">
+            <span class="p-mark black">
+              <img src="./Images/Jours 13.png" alt="" />
+            </span>
+          </div>
+
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span>Affiche commerciale</span>
+
+              <div class="p-overlay">
+                <span
+                  class="p-view"
+                  data-image="./Images/Jours 13.png"
+                  data-title="Collection mode — Vêtements & accessoires"
+                  data-description="Création d’un visuel promotionnel pour une boutique de mode proposant des vêtements et accessoires pour femmes et hommes, avec une composition pensée pour valoriser les produits et renforcer l’identité visuelle de la marque."
+                  data-tags="Photoshop, Communication visuelle, Design publicitaire"
+                >
+                  Voir le projet →
+                </span>
+              </div>
+            </div>
+
+            <h3 class="display">Collection mode — Vêtements & accessoires</h3>
+
+            <p>
+              Création d’un visuel promotionnel pour une boutique de mode
+              proposant des vêtements et accessoires pour femmes et hommes, avec
+              une composition pensée pour valoriser les produits et renforcer
+              l’identité visuelle de la marque.
+            </p>
+
+            <div class="p-tags">
+              <span>Photoshop</span>
+              <span>Communication visuelle</span>
+              <span>Design publicitaire</span>
+            </div>
+          </div>
+        </div>
+        <div class="glass hoverable p-card" data-cat="web">
+          <div class="p-thumb g2">
+            <span class="p-mark black"
+              ><img src="./Images/site rodrigue gaming.png" alt=""
+            /></span>
+          </div>
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span> Plateforme web</span>
+              <div class="p-overlay">
+                <span class="p-view"
+                  ><a href="https://rodrigue-pro-gaming.vercel.app/"
+                    >Voir le projet →</a
+                  ></span
+                >
+              </div>
+            </div>
+            <h3 class="display">BestMarket Finder</h3>
+            <p>
+              Création d'une plateforme web facilitant la découverte de produits
+              locaux, de produits cosmétiques naturels et de pharmacies à
+              proximité. Le site permet aux utilisateurs de trouver des vendeurs
+              et d'entrer directement en contact avec eux via WhatsApp.
+            </p>
+            <div class="p-tags">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>E-commerce</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass hoverable p-card" data-cat="design">
+          <div class="p-thumb g3">
+            <span class="p-mark black">
+              <img src="./Images/Jours 14.png" alt="" />
+            </span>
+          </div>
+
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span>Affiche commerciale</span>
+
+              <div class="p-overlay">
+                <span
+                  class="p-view"
+                  data-image="./Images/Jours 14.png"
+                  data-title="Collection mode — Vêtements & accessoires"
+                  data-description="Création d’un visuel promotionnel pour une boutique de mode proposant des vêtements et accessoires pour femmes et hommes, avec une composition pensée pour valoriser les produits et renforcer l’identité visuelle de la marque."
+                  data-tags="Photoshop, Communication visuelle, Design publicitaire"
+                >
+                  Voir le projet →
+                </span>
+              </div>
+            </div>
+
+            <h3 class="display">Collection mode — Vêtements & accessoires</h3>
+
+            <p>
+              Création d’un visuel promotionnel pour une boutique de mode
+              proposant des vêtements et accessoires pour femmes et hommes, avec
+              une composition pensée pour valoriser les produits et renforcer
+              l’identité visuelle de la marque.
+            </p>
+
+            <div class="p-tags">
+              <span>Photoshop</span>
+              <span>Communication visuelle</span>
+              <span>Design publicitaire</span>
+            </div>
+          </div>
+        </div>
+        <div class="glass hoverable p-card" data-cat="web">
+          <div class="p-thumb g2">
+            <span class="p-mark black"
+              ><img src="./Images/Site de l'AESP.png" alt=""
+            /></span>
+          </div>
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span> Plateforme web</span>
+              <div class="p-overlay">
+                <span class="p-view"
+                  ><a
+                    href="https://association-des-etudiants-en-sciences-physiques.vercel.app/"
+                    >Voir le projet →</a
+                  ></span
+                >
+              </div>
+            </div>
+            <h3 class="display">BestMarket Finder</h3>
+            <p>
+              Création d'une plateforme web facilitant la découverte de produits
+              locaux, de produits cosmétiques naturels et de pharmacies à
+              proximité. Le site permet aux utilisateurs de trouver des vendeurs
+              et d'entrer directement en contact avec eux via WhatsApp.
+            </p>
+            <div class="p-tags">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>E-commerce</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass hoverable p-card" data-cat="design">
+          <div class="p-thumb g3">
+            <span class="p-mark black">
+              <img src="./Images/Jours 4.png" alt="" />
+            </span>
+          </div>
+
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span>Affiche commerciale</span>
+
+              <div class="p-overlay">
+                <span
+                  class="p-view"
+                  data-image="./Images/Jours 4.png"
+                  data-title="Collection mode — Vêtements & accessoires"
+                  data-description="Création d’un visuel promotionnel pour une boutique de mode proposant des vêtements et accessoires pour femmes et hommes, avec une composition pensée pour valoriser les produits et renforcer l’identité visuelle de la marque."
+                  data-tags="Photoshop, Communication visuelle, Design publicitaire"
+                >
+                  Voir le projet →
+                </span>
+              </div>
+            </div>
+
+            <h3 class="display">Collection mode — Vêtements & accessoires</h3>
+
+            <p>
+              Création d’un visuel promotionnel pour une boutique de mode
+              proposant des vêtements et accessoires pour femmes et hommes, avec
+              une composition pensée pour valoriser les produits et renforcer
+              l’identité visuelle de la marque.
+            </p>
+
+            <div class="p-tags">
+              <span>Photoshop</span>
+              <span>Communication visuelle</span>
+              <span>Design publicitaire</span>
+            </div>
+          </div>
+        </div>
+        <div class="glass hoverable p-card" data-cat="design">
+          <div class="p-thumb g3">
+            <span class="p-mark black">
+              <img src="./Images/Jours 9.png" alt="" />
+            </span>
+          </div>
+
+          <div class="p-body">
+            <div class="p-cat mono">
+              <span>Affiche commerciale</span>
+
+              <div class="p-overlay">
+                <span
+                  class="p-view"
+                  data-image="./Images/Jours 9.png"
+                  data-title="Collection mode — Vêtements & accessoires"
+                  data-description="Création d’un visuel promotionnel pour une boutique de mode proposant des vêtements et accessoires pour femmes et hommes, avec une composition pensée pour valoriser les produits et renforcer l’identité visuelle de la marque."
+                  data-tags="Photoshop, Communication visuelle, Design publicitaire"
+                >
+                  Voir le projet →
+                </span>
+              </div>
+            </div>
+
+            <h3 class="display">Collection mode — Vêtements & accessoires</h3>
+
+            <p>
+              Création d’un visuel promotionnel pour une boutique de mode
+              proposant des vêtements et accessoires pour femmes et hommes, avec
+              une composition pensée pour valoriser les produits et renforcer
+              l’identité visuelle de la marque.
+            </p>
+
+            <div class="p-tags">
+              <span>Photoshop</span>
+              <span>Communication visuelle</span>
+              <span>Design publicitaire</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="section-head" data-reveal>
+        <span class="tag">Parcours</span>
+        <h2>Expérience</h2>
+        <div class="line"></div>
+      </div>
+      <div class="parcour-box">
+        <div class="timeline" data-reveal>
+          <div class="t-item">
+            <div class="t-year mono">2023 — Aujourd'hui</div>
+            <h3 class="display">Développement web</h3>
+            <p>
+              Apprentissage et perfectionnement en HTML, CSS et JavaScript à
+              travers des travaux pratiques, des projets personnels et la
+              création d'un site web pour ma chaîne YouTube.
+            </p>
+          </div>
+
+          <div class="t-item">
+            <div class="t-year mono">Fin 2025 — Aujourd'hui</div>
+            <h3 class="display">Designer graphique</h3>
+            <p>
+              Réalisation de supports de communication et d'identités visuelles
+              pour des clients ainsi que de projets personnels, avec la
+              conception de mon propre portfolio de designer graphique.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline" data-reveal>
+          <div class="t-item">
+            <div class="t-year mono">2025 — Aujourd'hui</div>
+            <h3 class="display">Projets personnels</h3>
+            <p>
+              Conception et développement de portfolios mettant en avant mes
+              compétences en développement web et en design graphique, dans une
+              démarche d'amélioration continue.
+            </p>
+          </div>
+
+          <div class="t-item">
+            <div class="t-year mono">Aujourd'hui</div>
+            <h3 class="display">En recherche d'opportunités</h3>
+            <p>
+              Ouvert aux stages, collaborations et missions freelance afin de
+              mettre mes compétences au service de nouveaux projets et
+              d'acquérir davantage d'expérience professionnelle.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="section-head" data-reveal>
+        <span class="tag">Retours</span>
+        <h2>Ce qu'on en dit</h2>
+        <div class="line"></div>
+      </div>
+      <div class="test-grid" data-reveal>
+        <div class="glass hoverable test-card">
+          <p class="test-quote">
+            Rodrigue a su traduire notre univers en une identité forte, puis la
+            coder fidèlement. Un vrai gain de temps de ne parler qu'à une seule
+            personne.
+          </p>
+          <div class="test-who">
+            <div class="test-avatar">LM</div>
+            <div>
+              <div class="test-name">Léa Morel</div>
+              <div class="test-role mono">Fondatrice, Atelier Fauve</div>
+            </div>
+          </div>
+        </div>
+        <div class="glass hoverable test-card">
+          <p class="test-quote">
+            Le site livré était exactement à la hauteur des maquettes — pixel
+            perfect, rapide, et pensé pour nos clients dès le premier jour.
+          </p>
+          <div class="test-who">
+            <div class="test-avatar">TK</div>
+            <div>
+              <div class="test-name">Thomas Kader</div>
+              <div class="test-role mono">CEO, Nordic Books</div>
+            </div>
+          </div>
+        </div>
+        <div class="glass hoverable test-card">
+          <p class="test-quote">
+            Un vrai sens du détail, autant sur la direction artistique que sur
+            le code. Nos utilisateurs adorent la nouvelle interface.
+          </p>
+          <div class="test-who">
+            <div class="test-avatar">SB</div>
+            <div>
+              <div class="test-name">Sarah Benali</div>
+              <div class="test-role mono">Product Lead, Fintra</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="section-head" data-reveal>
+        <span class="tag">Questions</span>
+        <h2>FAQ</h2>
+        <div class="line"></div>
+      </div>
+      <div class="glass faq-list" data-reveal>
+        <div class="faq-item">
+          <div class="faq-q">
+            <h3>Quels services proposez-vous ?</h3>
+            <span class="faq-plus">+</span>
+          </div>
+          <div class="faq-a">
+            <p>
+              Je propose la création de sites web, la conception d'interfaces
+              UI/UX, la création d'identités visuelles ainsi que la réalisation
+              de supports de communication comme les affiches et les flyers.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q">
+            <h3>Travaillez-vous avec des particuliers et des entreprises ?</h3>
+            <span class="faq-plus">+</span>
+          </div>
+          <div class="faq-a">
+            <p>
+              Oui. J'accompagne aussi bien les particuliers, les associations
+              que les petites entreprises dans la réalisation de leurs projets
+              numériques et graphiques.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q">
+            <h3>Combien de temps dure un projet ?</h3>
+            <span class="faq-plus">+</span>
+          </div>
+          <div class="faq-a">
+            <p>
+              La durée dépend de la complexité du projet. Une affiche peut être
+              réalisée en quelques jours, tandis qu'un site web demande
+              généralement plusieurs semaines de conception et de développement.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q">
+            <h3>Comment démarrer un projet avec vous ?</h3>
+            <span class="faq-plus">+</span>
+          </div>
+          <div class="faq-a">
+            <p>
+              Il suffit de me contacter par e-mail ou via mes réseaux. Nous
+              échangerons sur vos besoins afin de définir la solution la plus
+              adaptée à votre projet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-head" data-reveal>
+        <span class="tag">Contact</span>
+        <h2>Contact</h2>
+        <div class="line"></div>
+      </div>
+      <div class="glass contact-panel" data-reveal>
+        <div class="contact-content">
+          <div class="contact-left">
+            <span class="chip">
+              <span class="dot"></span>
+              Disponible pour de nouveaux projets
+            </span>
+
+            <h2 class="black">
+              Une idée à
+              <span class="accent">construire</span>
+              ensemble ?
+            </h2>
+
+            <p class="contact-text">
+              Je conçois des interfaces modernes et des identités visuelles qui
+              allient esthétique, performance et expérience utilisateur. Parlons
+              de votre prochain projet.
+            </p>
+
+            <a href="mailto:kravivienrodrigue@gmail.com" class="contact-btn">
+              Discutons de votre projet
+            </a>
+          </div>
+
+          <div class="contact-right">
+            <div class="contact-card">
+              <div class="contact-item">
+                <span>Email</span>
+
+                <a href="mailto:kravivienrodrigue@gmail.com">
+                  kravivienrodrigue@gmail.com
+                </a>
+              </div>
+
+              <div class="contact-item">
+                <span>Localisation</span>
+
+                <p>Abidjan, Côte d'Ivoire</p>
+              </div>
+
+              <div class="contact-item">
+                <span>Réseaux</span>
+
+                <div class="socials">
+                  <a href="https://web.facebook.com/rodrigue.nguetta.1/">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/in/kra-vivien-rodrigue-nguetta/"
+                  >
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+
+                  <a href="https://github.com/KraRodrigue">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+
+                  <a
+                    href="https://www.tiktok.com/@rodrigue.dev?_r=1&_t=ZN-985X0UZ0lUc"
+                  >
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>Développeur web • Designer graphique</span>
+      <span>© 2026 Rodrigue N'Guetta</span>
+      <span>
+        <a href="https://web.facebook.com/rodrigue.nguetta.1/"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.tiktok.com/@rodrigue.dev?_r=1&_t=ZN-985X0UZ0lUc"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/kra-vivien-rodrigue-nguetta/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/KraRodrigue"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </span>
+    </footer>
+
+    <!-- Pop-up pour les affiche quant on clique sur voir le projet  -->
+
+    <div class="project-modal" id="projectModal">
+      <div class="modal-box">
+        <button class="modal-close">×</button>
+
+        <img id="modalImg" src="" alt="" />
+
+        <div class="modal-text">
+          <h2 id="modalTitle"></h2>
+
+          <p id="modalDesc"></p>
+
+          <div id="modalTags" class="p-tags"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Pop-up pour pour mon portfolio de designer graphique  quant on clique sur voir le projet  -->
+
+    <div class="design-modal" id="designModal">
+      <div class="design-modal-content">
+        <button class="design-close">×</button>
+
+        <div class="design-slider">
+          <button class="slider-btn prev">❮</button>
+
+          <img id="designImage" src="" alt="Portfolio design" />
+
+          <button class="slider-btn next">❯</button>
+        </div>
+
+        <div class="design-info">
+          <h2>Portfolio Designer Graphique</h2>
+
+          <p>
+            Découvrez une sélection de mes réalisations en identité visuelle,
+            affiches, supports de communication et UI Design.
+          </p>
+
+          <span id="designCounter"> 01 / 05 </span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
