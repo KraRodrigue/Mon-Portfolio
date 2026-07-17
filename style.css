@@ -299,6 +299,7 @@ header {
   transition: border-color 0.4s;
   width: 100%;
   overflow-x: hidden;
+  border: 1px solid blue;
 }
 @media (max-width: 900px) {
   header {
