@@ -302,7 +302,7 @@ header {
 }
 @media (max-width: 900px) {
   header {
-    width: 90%;
+    width: 400px;
   }
 }
 
