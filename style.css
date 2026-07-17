@@ -434,7 +434,7 @@ nav a.active::after {
   top: 90px;
   left: 50%;
   transform: translateX(-50%) translateY(-12px);
-  width: 90%;
+  width: 400px;
   z-index: 49;
   padding: 18px;
   display: flex;
