@@ -294,6 +294,8 @@ header {
     inset 0 1px 0 rgba(255, 255, 255, 0.08),
     0 20px 50px -24px rgba(0, 0, 0, 0.8);
   transition: border-color 0.4s;
+  width: 100%;
+  overflow-x: hidden;
 }
 @media (max-width: 900px) {
   header {
@@ -658,7 +660,7 @@ nav a.active::after {
   position: absolute;
   right: -80px;
   bottom: 0;
-  width: 260px;
+  width: 460px;
   height: auto;
 }
 
@@ -697,7 +699,7 @@ nav a.active::after {
   }
 
   50% {
-    top: 92%;
+    top: 92%;mobile-nav
   }
 }
 
