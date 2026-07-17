@@ -43,9 +43,13 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-   overflow-x: hidden;
+  overflow-x: hidden;
 }
 
+main {
+  width: 100%;
+  overflow-x: hidden;
+}
 ::selection {
   background: var(--red);
   color: #fff;
@@ -279,6 +283,12 @@ section {
 
 /* ================= HEADER ================= */
 header {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+.header1 {
   position: fixed;
   top: 16px;
   left: 50%;
@@ -702,7 +712,7 @@ nav a.active::after {
   }
 
   50% {
-    top: 92%;mobile-nav
+    top: 92%;
   }
 }
 
@@ -1856,8 +1866,7 @@ button:focus-visible {
   /* Coupe les animations de fond (morph/drift) et le blur(70px) des blobs */
   .blob {
     animation: none;
-    filter: none;
-    display: none; /* le fond animé n'apporte rien sur mobile, autant l'enlever du rendu */
+     /* le fond animé n'apporte rien sur mobile, autant l'enlever du rendu */
   }
 
   /* Coupe les animations décoratives infinies restantes */
@@ -1870,7 +1879,7 @@ button:focus-visible {
 
   /* Supprime le backdrop-filter partout sur mobile : remplacé par un fond
      uni semi-opaque, visuellement proche mais bien plus léger à calculer */
-  .glass,
+  /* .glass,
   .chip,
   .seam-panel,
   .design-modal,
@@ -1880,27 +1889,27 @@ button:focus-visible {
   .mobile-nav {
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
-  }
+  } */
 
-  .glass,
+  /* .glass,
   .seam-panel {
     background: rgba(14, 14, 17, 0.92);
-  }
+  } */
 
-  header,
+  /* header,
   .mobile-nav {
     background: rgba(10, 10, 13, 0.92);
-  }
+  } */
 
-  .chip,
+  /* .chip,
   .filter-tabs button,
   .btn-ghost {
     background: rgba(14, 14, 17, 0.85);
-  }
+  } */
 
-  .design-modal {
+  /* .design-modal {
     background: rgba(0, 0, 0, 0.94);
-  }
+  } */
 
   /* Les pseudo-éléments ::before/::after de .glass ajoutent des calques
      de rendu (dégradé, halo) inutiles sur un écran tactile */
@@ -1916,7 +1925,7 @@ button:focus-visible {
       inset 0 1px 0 rgba(255, 255, 255, 0.08),
       0 24px 60px -28px rgba(0, 0, 0, 0.75);
   }
-}
+
 
 @media (prefers-reduced-motion: reduce) {
   html {
